@@ -1,0 +1,18 @@
+.header{
+    width:100%;
+    height:75px;
+    background-image: linear-gradient(to right top, #fb1096, #eb28b1, #d53ec9, #b651df, #8d61f0, #667bfd, #3b8fff, #009fff, #00bbff, #00d4ff, #00eaff, #2dfff2);
+    display:flex;
+    justify-content:space-evenly;
+}
+.menu{
+    display:flex;
+}
+.menuitem{
+    margin:10px;
+    list-style:none;
+    text-decoration:none; 
+
+}.menuitemi{
+    text-decoration:none;
+}

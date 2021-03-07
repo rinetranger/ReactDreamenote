@@ -1,0 +1,23 @@
+.container{
+    display:flex;
+    align-items: center;
+}
+.checkbox{
+    
+    width:15px;
+    height:15px;
+    background-color:gray;
+    margin:5px;
+}
+
+.delete{
+    margin:5px;
+}
+.label{
+    font-size:13px;
+    margin-left:20px;
+}
+.input{
+    vertical-align:top;
+    
+}
