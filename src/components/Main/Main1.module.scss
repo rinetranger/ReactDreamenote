@@ -1,6 +1,28 @@
+.container{
+    width:50%;
+    min-height:750px;
+    background-color:#cfe8fc;
+    padding:64px;
+    box-sizing:border-box;
+}
 .button{
     margin-left:15px;
+    
 }
 .input{
     margin-bottom:30px;
+}
+.textinput{
+    margin-right:25px;
+    width:50%;
+    height:24px;
+}
+.title1{
+    margin:100px 0 100px 0;
+}
+
+.ul{
+    margin:30px 30px 30px 0px;
+    overflow-wrap:break-word;
+    text-align: left;
 }

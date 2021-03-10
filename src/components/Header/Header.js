@@ -17,7 +17,7 @@ const  Header=()=> {
                   <Link to='/about' className={Style.menuitemi}>About</Link>
                 </li></FadeIn>
                 <FadeIn><li className={Style.menuitem}>
-                  <Link to='/myprof' className={Style.menuitemi}>Myprof</Link>
+                  <Link to='/Blog' className={Style.menuitemi}>Blog</Link>
                 </li></FadeIn>
               </ul>
             </nav>

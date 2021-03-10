@@ -3,8 +3,8 @@ import Layout from '../components/Layout/Layout'
 import Main3 from '../components/Main/Main3'
 import Sidebar1 from '../components/Sidebar/Sidebar1'
 import Sidebar2 from '../components/Sidebar/Sidebar2'
-import Style from './Myprof.module.scss'
-function Myprof() {
+import Style from './Blog.module.scss'
+function Blog() {
     return (
         <div>
          <Layout>
@@ -19,4 +19,4 @@ function Myprof() {
     )
 }
 
-export default Myprof
+export default Blog

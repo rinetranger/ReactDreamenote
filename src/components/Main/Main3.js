@@ -4,10 +4,7 @@ function Main3() {
     return (
         <div>
         <h2>Main3</h2>
-            <form>
-            <input type="text"  />
-            <input type="submit" name="push" />
-            </form>
+         <di>test</di>
         </div>
     )
 }

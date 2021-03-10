@@ -10,9 +10,9 @@ function About() {
         <div>
             <Layout>
                 <div  className={Style.container}>
-                <Sidebar1 />
-                <Main2 />
-                <Sidebar2 />
+                <Sidebar1 className={Style.container1}/>
+                <Main2 className={Style.container2}/>
+                <Sidebar2 className={Style.containercontainer3}/>
                 </div>
             </Layout>
         </div>
