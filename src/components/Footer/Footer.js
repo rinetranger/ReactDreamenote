@@ -4,7 +4,7 @@ import Style from './Footer.module.scss';
 function Footer() {
     return (
         <div className={Style.foot}>
-            <h2>Footer</h2>
+            <h2 className={Style.title}>Footer</h2>
         </div>
     )
 }

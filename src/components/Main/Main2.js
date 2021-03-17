@@ -3,8 +3,8 @@ import Style from './Main2.module.scss'
 import Image from './me.jpg'
 function Main2() {
     return (
-        <div className={Style.main2}>
-        <h2>About Me</h2> 
+        <div className={Style.container}>
+        <h2 className={Style.title}>About Me</h2> 
         <img src={Image} alt="" className={Style.img}/>
         <p className={Style.profile}>
             コンサルティングファームBIG4出身。主に証券会社、銀行、VC、投信投資顧問、REITなどの監査

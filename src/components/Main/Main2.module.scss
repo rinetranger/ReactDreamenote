@@ -1,15 +1,22 @@
+.container{
+    width:50%;
+    min-height:750px;
+    background-color:#cfe8fc;
+    box-sizing:border-box;
+    margin: 0;
+}
 .img{
     width:200px;
 
     margin:40px 0 40px 0;
 
 }
-.main2{
-     width:50%;
-    min-height:750px;
-    background-color:#cfe8fc;
-}
+
 .profile{
     padding:64px;
     overflow-wrap:break-word;
+}
+
+.title{
+    margin: 100px;
 }

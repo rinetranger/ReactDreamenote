@@ -1,6 +1,16 @@
 .foot{
+    height:200px;
+    bottom:0;
+    left:0;
     justify-content:center;
     width:100%;
     text-align:center;
+    background-image: linear-gradient(to right top, #fb1096, #eb28b1, #d53ec9, #b651df, #8d61f0, #667bfd, #3b8fff, #009fff, #00bbff, #00d4ff, #00eaff, #2dfff2);
+    margin:0;
+}
 
+.title{
+    height: 150px;
+    padding:24px;
+    margin: 0;
 }

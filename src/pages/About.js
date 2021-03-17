@@ -12,7 +12,7 @@ function About() {
                 <div  className={Style.container}>
                 <Sidebar1 className={Style.container1}/>
                 <Main2 className={Style.container2}/>
-                <Sidebar2 className={Style.containercontainer3}/>
+                <Sidebar2 className={Style.container3}/>
                 </div>
             </Layout>
         </div>
