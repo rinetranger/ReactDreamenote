@@ -4,18 +4,18 @@ jobs:
     docker:
       - image: circleci/node:4.8.2
     steps:
-      
+      - checkout
       - run: echo "hello world"
       - run: sleep 25
   two:
     docker:
       - image: circleci/node:4.8.2
     steps:
-     
+      - checkout
       - run: echo "A more familiar hi"
       - run: sleep 25
-      workflows:
-   version: 2
+  workflows:
+   version: 2.1
    one_and_two:
      jobs:
        - one
