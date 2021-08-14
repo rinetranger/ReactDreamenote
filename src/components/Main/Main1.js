@@ -52,7 +52,7 @@ function Main1() {
                     <form onSubmit={handleSubmit} className={Style.input}>
                         <input type="text" placeholder=" target&goal" value={article} onChange={event =>setArticle(event.target.value)} className={Style.textinput}/>
                     
-                        <Button variant="outlined" type="submit" value="入力"  color="Secondary">夢よ叶え</Button>
+                        <Button variant="outlined" type="submit" value="入力"  color="Secondary">入力</Button>
                     </form>
                     <div>
                         <ul className={Style.ul}>
